@@ -1,0 +1,2948 @@
+menu = gg.choice({'⭕𝐌𝐄𝐓𝐑𝐎 𝐒𝐔𝐑𝐅𝐄𝐑 ⭕ ', ' ⭕𝐋𝐄𝐐𝐔𝐈𝐃 𝐒𝐇𝐎𝐓 ⭕ ', ' ⭕𝐖𝐎𝐑𝐃 𝐒𝐄𝐀𝐑𝐂𝐇🔍 ⭕ ', ' ⭕ 𝐂𝐀𝐍𝐃𝐘 🍬⭕ ', ' ⭕ 𝐒𝐍𝐀𝐊𝐄 𝐑𝐔𝐒𝐇 ⭕ ', ' ⭕ 204𝟖 𝐁𝐀𝐋𝐋𝐒 ⭕ ' , '     𝐔𝐒𝐄𝐑 𝐆𝐔𝐈𝐃𝐄 ❓' } ,nil, ' ✳️𝐌𝐀𝐊𝐄 𝐁𝐘 𝐂𝐗 𝐒𝐀𝐍𝐉𝐔 ✴️  ')
+if menu==1 then
+gg.alert(" METRO LAST SCORE  7100 ")
+
+function HOME()
+
+  MM = gg.multiChoice({
+
+" SPEED HACK",
+
+"AUTO COLLECT", 
+
+"EXIT"},nil," MAKE BY CX_SANJU ")
+
+if MM == nil then else
+
+if MM[1] == true then map () end
+
+if MM[2] == true then op () end
+
+if MM[3] == true then EXIT () end
+
+end
+
+KD = -1
+
+end
+
+function map()
+
+gg.clearResults()
+
+gg.setRanges(32)
+
+gg.searchNumber("25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+revert = gg.getResults(110000, nil, nil, nil, nil, nil, nil, nil, nil)
+
+gg.editAll("-11", gg.TYPE_FLOAT)
+
+end
+
+function op()
+
+gg.clearResults()
+
+gg.searchNumber("0.6", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1, 0)
+
+revert = gg.getResults(15000, nil, nil, nil, nil, nil, nil, nil, nil)
+
+gg.editAll("-999", gg.TYPE_FLOAT)
+
+end
+
+function EXIT()
+
+  gg.setVisible(true)
+
+gg.alert("MADE BY CX_SANJU")
+
+  os.exit()
+
+end
+
+while true do
+
+  if gg.isVisible(true) then
+
+    KD = 1
+
+    gg.setVisible(false)
+
+  end
+
+  
+
+  if KD== 1 then
+
+    HOME()
+
+end
+
+end
+end
+if menu==2 then
+gg.alert(" LEQUID SHOT LAST SCORE  11998  ")
+gg.setVisible(true)
+LuaLibraryTool = -1
+function HOME()
+MENU = gg.choice({
+        "LIQUID SCORE 50",
+        "LIQUID SCORE 48",
+        "Exit",
+}, nil, "Script Made BY CX _SANJU")
+if MENU == nil then
+  else
+   if MENU == 1 then
+      MENU1()
+     end
+   if MENU == 2 then
+      MENU2()
+     end
+    if MENU == 3 then
+      MENU3()
+     end
+   end
+  LuaLibraryTool = -1
+end
+
+function MENU1()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(18245222400, gg.TYPE_QWORD)
+WinzoScripter = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(WinzoScripter) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = WinzoScripter[index].address + -20
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = WinzoScripter[index].address + -4
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4294967553) and (Offsets['SecondOffset'][index].value == 4575657221408423936) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + -12
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(9999)
+gg.editAll("1,644,685,087", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(18245222400, gg.TYPE_QWORD)
+WinzoScripter = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(WinzoScripter) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = WinzoScripter[index].address + -20
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = WinzoScripter[index].address + -4
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4294967553) and (Offsets['SecondOffset'][index].value == 4575657221408423936) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + -8
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(9999)
+gg.editAll("-1,644,685,103;", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(18245222400, gg.TYPE_QWORD)
+WinzoScripter = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(WinzoScripter) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = WinzoScripter[index].address + -20
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = WinzoScripter[index].address + -4
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4294967553) and (Offsets['SecondOffset'][index].value == 4575657221408423936) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + -4
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(9999)
+gg.editAll("-50", gg.TYPE_DWORD)
+gg.clearResults()
+gg.alert(' ⭕ PER CLICK 50 SCORE ACTIVE')
+end
+
+
+function MENU2()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(18245222400, gg.TYPE_QWORD)
+WinzoScripter = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(WinzoScripter) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = WinzoScripter[index].address + -20
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = WinzoScripter[index].address + -4
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4294967553) and (Offsets['SecondOffset'][index].value == 4575657221408423936) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + -12
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(9999)
+gg.editAll("1,683,631,602", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(18245222400, gg.TYPE_QWORD)
+WinzoScripter = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(WinzoScripter) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = WinzoScripter[index].address + -20
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = WinzoScripter[index].address + -4
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4294967553) and (Offsets['SecondOffset'][index].value == 4575657221408423936) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + -8
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(9999)
+gg.editAll("-1,683,631,582;", gg.TYPE_DWORD)
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(18245222400, gg.TYPE_QWORD)
+WinzoScripter = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(WinzoScripter) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = WinzoScripter[index].address + -20
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = WinzoScripter[index].address + -4
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4294967553) and (Offsets['SecondOffset'][index].value == 4575657221408423936) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + -4
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(9999)
+gg.editAll("-48", gg.TYPE_DWORD)
+gg.clearResults()
+gg.alert(' ⭕PER CLICK 48 SCORE ACTIVE')
+end
+
+function MENU3() 
+gg.skipRestoreState()
+  gg.setVisible(true)
+  os.exit()
+end
+while true do
+  if gg.isVisible(true) then
+    LuaLibraryTool = 1
+    gg.setVisible(false)
+  end
+  if LuaLibraryTool == 1 then
+    HOME()
+  end
+end
+end
+if menu==3 then
+gg.alert(" WORD SEARCH LAST SCORE 5700")
+userMode = 2 -- 1 = Developer mode, 2 = user mode
+
+
+
+
+
+
+function mainMenu()
+firstMenu = gg.multiChoice({"🔰5 WORDS- Fix","🔰6 WORDS- fix","🔰7 WORDS - Unknown","🔰8 WORDS- Unknown"},nil," WORK ON 1456 VERSION BY CX_SANJU ⭕")
+if firstMenu == nil then
+goto nill
+end
+if firstMenu[1] then
+cheat_1()
+end
+if firstMenu[2] then
+cheat_2()
+end
+if firstMenu[3] then
+cheat_3()
+end
+if firstMenu[4] then
+cheat_4()
+end
+::nill::
+end
+
+
+
+function cheat_1()
+gg.clearList()
+gg.clearResults()
+valueFromClass("GameDataWordSearch", "0x24", false, true, gg.TYPE_DWORD)
+gg.getResults(gg.getResultsCount(9999))
+gg.editAll("1140", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("F")
+end
+
+function cheat_2()
+gg.clearList()
+gg.clearResults()
+valueFromClass("GameDataWordSearch", "0x24", false, true, gg.TYPE_DWORD) 
+gg.getResults(gg.getResultsCount(9999))
+gg.editAll("950", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("FUCK FUCK FUCK XXX.COM")
+end
+
+function cheat_3()
+gg.clearResults()
+valueFromClass("GameDataWordSearch", "0x24", false, true, gg.TYPE_DWORD) 
+gg.getResults(gg.getResultsCount(9999))
+gg.editAll("814", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("FUCK FUCK FUCK XXX.COM")
+end
+
+
+function cheat_4()
+gg.clearList()
+gg.clearResults()
+valueFromClass("GameDataWordSearch", "0x24", false, true, gg.TYPE_DWORD) 
+gg.getResults(gg.getResultsCount(9999))
+gg.editAll("712", gg.TYPE_DWORD)
+gg.clearResults()
+gg.toast("FUCK FUCK FUCK XXX.COM")
+end
+
+
+function subcheat_1()
+valueFromClass("GameModeSetting", "0x2f", false, false, gg.TYPE_BYTE)
+gg.getResults(9999)
+gg.editAll(1, gg.TYPE_BYTE)
+gg.clearResults()
+stopClose()
+end
+
+
+
+function subcheat_2()
+valueFromClass("PlayerScript", "0x40", false, true, gg.TYPE_DWORD)
+gg.getResults(9999)
+gg.editAll(9999, gg.TYPE_DWORD)
+gg.clearResults()
+stopClose()
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function valueFromClass(class, offset, tryHard, bit32, valueType)
+Get_user_input = {}
+Get_user_input[1] = class
+Get_user_input[2] = offset
+Get_user_input[3] = tryHard
+Get_user_input[4] = bit32
+Get_user_type = valueType
+start()
+end
+
+
+function loopCheck()
+if userMode == 1 then
+UI()
+elseif error == 3 then
+stopClose()
+end
+end
+
+
+
+
+
+--[[ ℹ️ These function help in error log ]]--
+function found_(message)
+if error == 1 then
+found2(message)
+elseif error == 2 then
+found3(message)
+elseif error == 3 then
+found4(message)
+else
+found(message)
+end
+end
+
+
+
+
+
+function found(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+first_error = message
+error = 1
+second_start()
+end
+end
+
+
+
+
+
+function found2(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+second_error = message
+error = 2
+third_start()
+end
+end
+
+
+
+
+
+function found3(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+third_error = message
+error = 3
+fourth_start()
+end
+end
+
+
+
+
+
+function found4(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+gg.alert("❌Value NOT FOUND❌\nError Log:\nTry 1: "..first_error.."\nTry 2: "..second_error.."\nTry 3: "..third_error.."\nTry 4: ".. message.."\n\nℹ️Try Thisℹ️\n\n🟢1: Make Sure You are Using Correct Version Of game and the dump. 64 bit game and 64 bit dump or 32 bit game 32 bit dump + check try for 32 bit option in script or Version of game and same version of dump.\n\n🟡2: Is the value allocated? if you are searching for player health maybe that value only loads after you load match and took some damage. So try again while playing\n\n🔴3: Is the class name correct? for example if the class is playerscript then don't forget to make P and S capital. So type PlayerScript not playerscript\n\n⚫4: Is the offset right? you have to type 0x before the offset for example the offset is C1 then you have to Give 0xC1 to this script\n\n🟤5: Tried Everything but still didn't work? then contact the devloper of this script https://t.me/Hackers_House_YT")
+gg.setVisible(true)
+loopCheck()
+end
+end
+
+
+
+
+--[[ 🟢Value Finders From Class and offset 🟢]]--
+function user_input_taker()
+::stort::
+gg.clearResults()
+if userMode == 1 then
+if Get_user_input == nil then
+default1 = "PlayerController"
+default2 = "0x148"
+default3 = false
+default4 = false
+else
+default1 =Get_user_input[1]
+default2 = Get_user_input[2]
+default3 = Get_user_input[3]
+default4 = Get_user_input[4]
+end
+Get_user_input = gg.prompt(
+{"🔰Script By🔰: https://t.me/Hackers_House_YT\n\nClass Name: ", "Offset: ","Try Harder --(decreases accuracy)","Try For 32 bit"},
+{default1,default2,default3,default4},
+{"text","text","checkbox","checkbox"})
+if Get_user_input ~= nil then
+if (Get_user_input[1] == "") or (Get_user_input[2] == "") then
+gg.alert("ℹ️ Don't Leave Input Blankℹ️")
+goto stort
+end
+else
+gg.alert("ℹ️ Error : Try again ℹ️")
+goto stort
+end
+Get_user_type = gg.choice({"1. Byte / Boolean","2. Dword / 32 bit Int","3. Qword / 64 bit Int","4. Float","5. Double"},nil,"🔰Script By🔰: https://t.me/Hackers_House_YT\n\nℹ️ Choose The Output Type ℹ️")
+if Get_user_type == 1 then
+Get_user_type = gg.TYPE_BYTE
+elseif Get_user_type == 2 then
+Get_user_type = gg.TYPE_DWORD
+elseif Get_user_type == 3 then
+Get_user_type = gg.TYPE_QWORD
+elseif Get_user_type == 4 then
+Get_user_type = gg.TYPE_FLOAT
+elseif Get_user_type == 5 then
+Get_user_type = gg.TYPE_DOUBLE
+end
+if Get_user_type ~= gg.TYPE_BYTE then
+if (Get_user_input[2] % 4) ~= 0 then
+gg.alert("ℹ️Hex Offset Must Be An Multiple OF 4ℹ️")
+goto stort
+end
+end
+end
+error = 0 
+end
+
+
+
+
+
+
+function O_initial_search()
+gg.setVisible(false)
+gg.toast("🟢Hackers House: First Try")
+user_input = ":"..Get_user_input[1] 
+if Get_user_input[3] then
+offst = 25
+else
+offst = 0
+end
+end
+
+
+
+
+
+
+function O_dinitial_search()
+if error > 1 then
+gg.setRanges(gg.REGION_C_ALLOC)
+else
+gg.setRanges(gg.REGION_OTHER)
+end
+gg.searchNumber(user_input, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+if count == 0 then
+found_("O_dinitial_search")
+return 0
+end
+Refiner = gg.getResults(1)
+gg.refineNumber(Refiner[1].value, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+if count == 0 then
+found_("O_dinitial_search")
+return 0
+end
+val = gg.getResults(count)
+gg.addListItems(val)
+end
+
+
+
+
+
+
+function CA_pointer_search()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.loadResults(gg.getListItems())
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("CA_pointer_search")
+return 0
+end
+vel = gg.getResults(count)
+gg.clearList()
+gg.addListItems(vel)
+end
+
+
+
+
+
+
+function CA_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+function CA2_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+
+
+
+
+
+function Q_apply_fix()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+count = gg.getResultsCount()
+if count == 0 then
+found_("Q_apply_fix")
+return 0
+end
+yy = gg.getResults(1000)
+gg.clearResults()
+i = 1
+c = 1
+s = {}
+while (i-1) < count do
+yy[i].address = yy[i].address + 0xb400000000000000
+gg.searchNumber(yy[i].address, gg.TYPE_QWORD)
+cnt = gg.getResultsCount()
+if 0 < cnt then
+bytr = gg.getResults(cnt)
+n = 1
+while (n-1) < cnt do
+s[c] = {}
+s[c].address = bytr[n].address
+s[c].flags = 32
+n = n + 1
+c = c + 1
+end
+end
+gg.clearResults()
+i = i + 1
+end
+gg.addListItems(s)
+end
+
+
+
+
+
+
+function A_base_value()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("A_base_value")
+return 0
+end
+tel = gg.getResults(count)
+gg.addListItems(tel)
+end
+
+
+
+
+
+
+function A_base_accuracy()
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("A_base_accuracy")
+return 0
+end
+kol = gg.getResults(count)
+i = 1
+h = {}
+while (i-1) < count do
+h[i] = {}
+h[i].address = kol[i].value
+h[i].flags = 32
+i = i + 1
+end
+gg.addListItems(h)
+end
+
+
+
+
+
+
+function A_user_given_offset()
+local old_save_list = gg.getListItems()
+for i, v in ipairs(old_save_list) do
+v.address = v.address + Get_user_input[2]
+v.flags = Get_user_type
+end
+gg.clearResults()
+gg.clearList()
+gg.loadResults(old_save_list)
+count = gg.getResultsCount()
+if count == 0 then
+found_("Q_apply_fix++")
+return 0
+end
+gg.setVisible(true)
+end
+
+
+
+
+--[[ 🔴 Different Functions For 1,2,3,4th try 🔴]]--
+function start()
+user_input_taker()
+O_initial_search()
+O_dinitial_search()
+if error > 0 then
+return 0
+end
+CA_pointer_search()
+if error > 0 then
+return 0
+end
+CA_apply_offset()
+if error > 0 then
+return 0
+end
+A_base_value()
+if error > 0 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 0 then
+return 0
+end
+A_user_given_offset()
+if error > 0 then
+return 0
+end
+loopCheck()
+if error > 0 then
+return 0
+end
+end
+
+
+
+
+
+
+function second_start()
+gg.toast("🟡Hackers House: Second Try")
+O_dinitial_search()
+if error > 1 then
+return 0
+end
+CA_pointer_search()
+if error > 1 then
+return 0
+end
+CA_apply_offset()
+if error > 1 then
+return 0
+end
+Q_apply_fix()
+if error > 1 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 1 then
+return 0
+end
+A_user_given_offset()
+if error > 1 then
+return 0
+end
+loopCheck()
+if error > 1 then
+return 0
+end
+end
+
+
+
+
+
+
+function third_start()
+gg.toast("🔴Hackers House: Third Try")
+O_dinitial_search()
+if error > 2 then
+return 0
+end
+CA_pointer_search()
+if error > 2 then
+return 0
+end
+if offst == 0 then
+CA2_apply_offset()
+end
+if error > 2 then
+return 0
+end
+A_base_value()
+if error > 2 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 2 then
+return 0
+end
+A_user_given_offset()
+if error > 2 then
+return 0
+end
+loopCheck()
+if error > 2 then
+return 0
+end
+end
+
+
+
+
+
+
+function fourth_start()
+gg.toast("☢️Hackers House: Fourth Try")
+O_dinitial_search()
+CA_pointer_search()
+CA2_apply_offset()
+Q_apply_fix()
+if offst == 0 then
+A_base_accuracy()
+end
+A_user_given_offset()
+loopCheck()
+end
+
+
+
+
+
+
+--[[ ℹ️ It will create an UI button and loop until user clicks the UI. If clicked calls start() ]]--
+function UI()
+gg.showUiButton()
+while true do
+if gg.isClickedUiButton() then
+start()
+end
+end
+end
+
+
+
+
+
+
+function stopClose()
+while true do
+mainMenu()
+gg.setVisible(false)
+while gg.isVisible() == false do
+end
+end
+end
+
+
+
+if userMode == 2 then
+stopClose()
+else
+UI()
+end
+end
+if menu==4 then
+gg.alert(" CANDY  LAST SCORE  38700 ")
+userMode = 2 -- 1 = Developer mode, 2 = user mode
+
+function mainMenu()
+firstMenu = gg.multiChoice({" POINT GAIN  ","❌EXIT❌"},nil,"CX_SANJU")
+if firstMenu == nil then
+goto nill
+end
+if firstMenu[1] then
+cheat_1()
+end
+if firstMenu[2] then
+os.exit()
+end
+::nill::
+end
+
+function cheat_1()
+valueFromClass("Candy", "0x24", false, true, gg.TYPE_BYTE)
+revert = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+gg.refineNumber("3B;2B;1B;0B;5B", gg.TYPE_BYTE)
+local t = gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+ if v.flags == gg.TYPE_BYTE then
+  v.value = "50"
+  v.freeze = true
+ end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+stopClose()
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function valueFromClass(class, offset, tryHard, bit32, valueType)
+Get_user_input = {}
+Get_user_input[1] = class
+Get_user_input[2] = offset
+Get_user_input[3] = tryHard
+Get_user_input[4] = bit32
+Get_user_type = valueType
+start()
+end
+
+
+function loopCheck()
+if userMode == 1 then
+UI()
+elseif error == 3 then
+stopClose()
+else
+end
+end
+
+
+
+
+
+--[[ ℹ️ These function help in error log ]]--
+function found_(message)
+if error == 1 then
+found2(message)
+elseif error == 2 then
+found3(message)
+elseif error == 3 then
+found4(message)
+else
+found(message)
+end
+end
+
+
+
+
+
+function found(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+first_error = message
+error = 1
+second_start()
+end
+end
+
+
+
+
+
+function found2(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+second_error = message
+error = 2
+third_start()
+end
+end
+
+
+
+
+
+function found3(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+third_error = message
+error = 3
+fourth_start()
+end
+end
+
+
+
+
+
+function found4(message)
+if count == 0 then
+gg.clearResults()
+gg.clearList()
+gg.alert("❌Value NOT FOUND❌\nError Log:\nTry 1: "..first_error.."\nTry 2: "..second_error.."\nTry 3: "..third_error.."\nTry 4: ".. message.."\n\nℹ️Try Thisℹ️\n\n🟢1: Make Sure You are Using Correct Version Of game and the dump. 64 bit game and 64 bit dump or 32 bit game 32 bit dump + check try for 32 bit option in script or Version of game and same version of dump.\n\n🟡2: Is the value allocated? if you are searching for player health maybe that value only loads after you load match and took some damage. So try again while playing\n\n🔴3: Is the class name correct? for example if the class is playerscript then don't forget to make P and S capital. So type PlayerScript not playerscript\n\n⚫4: Is the offset right? you have to type 0x before the offset for example the offset is C1 then you have to Give 0xC1 to this script\n\n🟤5: Tried Everything but still didn't work? then contact the devloper of this script https://t.me/Hackers_House_YT")
+gg.setVisible(true)
+loopCheck()
+end
+end
+
+
+
+
+--[[ 🟢Value Finders From Class and offset 🟢]]--
+function user_input_taker()
+::stort::
+gg.clearResults()
+if userMode == 1 then
+if Get_user_input == nil then
+default1 = "PlayerController"
+default2 = "0x148"
+default3 = false
+default4 = false
+else
+default1 =Get_user_input[1]
+default2 = Get_user_input[2]
+default3 = Get_user_input[3]
+default4 = Get_user_input[4]
+end
+Get_user_input = gg.prompt(
+{"🔰Script By🔰: https://t.me/Hackers_House_YT\n\nClass Name: ", "Offset: ","Try Harder --(decreases accuracy)","Try For 32 bit"},
+{default1,default2,default3,default4},
+{"text","text","checkbox","checkbox"})
+if Get_user_input ~= nil then
+if (Get_user_input[1] == "") or (Get_user_input[2] == "") then
+gg.alert("ℹ️ Don't Leave Input Blankℹ️")
+goto stort
+end
+else
+gg.alert("ℹ️ Error : Try again ℹ️")
+goto stort
+end
+Get_user_type = gg.choice({"1. Byte / Boolean","2. Dword / 32 bit Int","3. Qword / 64 bit Int","4. Float","5. Double"},nil,"🔰Script By🔰: https://t.me/Hackers_House_YT\n\nℹ️ Choose The Output Type ℹ️")
+if Get_user_type == 1 then
+Get_user_type = gg.TYPE_BYTE
+elseif Get_user_type == 2 then
+Get_user_type = gg.TYPE_DWORD
+elseif Get_user_type == 3 then
+Get_user_type = gg.TYPE_QWORD
+elseif Get_user_type == 4 then
+Get_user_type = gg.TYPE_FLOAT
+elseif Get_user_type == 5 then
+Get_user_type = gg.TYPE_DOUBLE
+end
+if Get_user_type ~= gg.TYPE_BYTE then
+if (Get_user_input[2] % 4) ~= 0 then
+gg.alert("ℹ️Hex Offset Must Be An Multiple OF 4ℹ️")
+goto stort
+end
+end
+end
+error = 0 
+end
+
+
+
+
+
+
+function O_initial_search()
+gg.setVisible(false)
+gg.toast("🟢Hackers House: First Try")
+user_input = ":"..Get_user_input[1] 
+if Get_user_input[3] then
+offst = 25
+else
+offst = 0
+end
+end
+
+
+
+
+
+
+function O_dinitial_search()
+if error > 1 then
+gg.setRanges(gg.REGION_C_ALLOC)
+else
+gg.setRanges(gg.REGION_OTHER)
+end
+gg.searchNumber(user_input, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+found_("O_dinitial_search")
+Refiner = gg.getResults(1)
+gg.refineNumber(Refiner[1].value, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+found_("O_dinitial_search")
+val = gg.getResults(count)
+gg.addListItems(val)
+end
+
+
+
+
+
+
+function CA_pointer_search()
+gg.clearResults()
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.loadResults(gg.getListItems())
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+found_("CA_pointer_search")
+vel = gg.getResults(count)
+gg.clearList()
+gg.addListItems(vel)
+end
+
+
+
+
+
+
+function CA_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+function CA2_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+
+
+
+
+
+function Q_apply_fix()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+count = gg.getResultsCount()
+found_("Q_apply_fix")
+yy = gg.getResults(1000)
+gg.clearResults()
+i = 1
+c = 1
+s = {}
+while (i-1) < count do
+yy[i].address = yy[i].address + 0xb400000000000000
+gg.searchNumber(yy[i].address, gg.TYPE_QWORD)
+cnt = gg.getResultsCount()
+if 0 < cnt then
+bytr = gg.getResults(cnt)
+n = 1
+while (n-1) < cnt do
+s[c] = {}
+s[c].address = bytr[n].address
+s[c].flags = 32
+n = n + 1
+c = c + 1
+end
+end
+gg.clearResults()
+i = i + 1
+end
+gg.addListItems(s)
+end
+
+
+
+
+
+
+function A_base_value()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+found_("A_base_value")
+tel = gg.getResults(count)
+gg.addListItems(tel)
+end
+
+
+
+
+
+
+function A_base_accuracy()
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+found_("A_base_accuracy")
+kol = gg.getResults(count)
+i = 1
+h = {}
+while (i-1) < count do
+h[i] = {}
+h[i].address = kol[i].value
+h[i].flags = 32
+i = i + 1
+end
+gg.addListItems(h)
+end
+
+
+
+
+
+
+function A_user_given_offset()
+local old_save_list = gg.getListItems()
+for i, v in ipairs(old_save_list) do
+v.address = v.address + Get_user_input[2]
+v.flags = Get_user_type
+end
+gg.clearResults()
+gg.clearList()
+gg.loadResults(old_save_list)
+count = gg.getResultsCount()
+found_("Q_apply_fix++")
+gg.setVisible(true)
+end
+
+
+
+
+--[[ 🔴 Different Functions For 1,2,3,4th try 🔴]]--
+function start()
+user_input_taker()
+O_initial_search()
+O_dinitial_search()
+CA_pointer_search()
+CA_apply_offset()
+A_base_value()
+if offst == 0 then
+A_base_accuracy()
+end
+A_user_given_offset()
+loopCheck()
+end
+
+
+
+
+
+
+function second_start()
+gg.toast("🟡Hackers House: Second Try")
+O_dinitial_search()
+CA_pointer_search()
+CA_apply_offset()
+Q_apply_fix()
+if offst == 0 then
+A_base_accuracy()
+end
+A_user_given_offset()
+loopCheck()
+end
+
+
+
+
+
+
+function third_start()
+gg.toast("🔴Hackers House: Third Try")
+O_dinitial_search()
+CA_pointer_search()
+if offst == 0 then
+CA2_apply_offset()
+end
+A_base_value()
+if offst == 0 then
+A_base_accuracy()
+end
+A_user_given_offset()
+loopCheck()
+end
+
+
+
+
+
+
+function fourth_start()
+gg.toast("☢️Hackers House: Fourth Try")
+O_dinitial_search()
+CA_pointer_search()
+CA2_apply_offset()
+Q_apply_fix()
+if offst == 0 then
+A_base_accuracy()
+end
+A_user_given_offset()
+loopCheck()
+end
+
+
+
+
+
+
+--[[ ℹ️ It will create an UI button and loop until user clicks the UI. If clicked calls start() ]]--
+function UI()
+gg.showUiButton()
+while true do
+if gg.isClickedUiButton() then
+start()
+end
+end
+end
+
+
+
+
+--[[ ℹ️ It will check for updates. Using the variable scversion which stores version info.]]--
+function updateChecker()
+scversion = 2
+API = gg.makeRequest('https://pastebin.com/raw/gPZb4z6f').content
+if not API then
+gg.alert('❌Error❌\n\n✅Either You Are Offline\n✅Or You Did not Give Internet access')
+else
+pcall(load(API))
+end
+end
+
+function stopClose()
+while true do
+mainMenu()
+gg.setVisible(false)
+while gg.isVisible() == false do
+end
+end
+end
+
+
+
+if userMode == 2 then
+stopClose()
+else
+UI()
+end
+-- script creator: Nok1a (before under the name Platonic/Mr.Dragon Star)
+-- Tutorial on how to use:  https://youtu.be/OylUtyEwGVA
+-- Use whatever you like in the script in case needed
+-- value = Time.timeScale
+
+local hexConvert = 0x0
+local dataType = 0x0
+local cdOffsetSmall = 0x0
+local cdOffsetBig =  0x0
+local cbOffsetSmall = 0x0
+local anonSpeedOffsetSmall = 0x0
+local anonSpeedOffsetBig = 0x0
+local anonGroupSearchOffset = 0x0
+
+function isProcess64Bit()
+  -- Function -> by CmP: https://gameguardian.net/forum/topic/36604-how-to-get-instruction-set-architecture-on-emulator-virtual-memory-addresses/?do=findComment&comment=135506
+  local regions = gg.getRangesList()
+  local lastAddress = regions[#regions]["end"]
+  return (lastAddress >> 32) ~= 0
+end
+
+function noselect()
+  gg.toast("You not select anything")
+end
+
+function cb_nothingFound()
+  if gg.getResultsCount() == 0 then
+    gg.alert("Search not found, Use Fuzzy or Xa")
+    start()
+  end
+end
+
+
+local ISA = isProcess64Bit()
+local resultsCount = gg.getResultsCount()
+gg.clearResults()
+
+function instructions()
+  if ISA == false then -- if true then 32 bit else 64 bit
+    hexConvert = 0x100000000
+    dataType = 4
+    cdOffsetSmall = 0xC
+    cdOffsetBig =  0xB58
+    cbOffsetSmall = 0x1C
+    anonSpeedOffsetSmall = 0xE4
+    anonSpeedOffsetBig = 0xEC
+    anonGroupSearchOffset = 0x30
+  else
+    hexConvert = 0x0
+    dataType = 32
+    cdOffsetSmall = 0x18
+    cdOffsetBig = 0x16B0
+    cbOffsetSmall = 0x38
+    cbOffsetBig = 0x48
+    anonSpeedOffsetSmall = 0xF4
+    anonSpeedOffsetBig = 0xFC
+    anonGroupSearchOffset = 0x44
+  end
+end
+function unityVersion()
+  gg.searchNumber(":Expected version: ", gg.TYPE_BYTE, gg.setRanges(16384))
+  if gg.getResultsCount() == 0 then
+    gg.alert("This game is not made with Unity, fuzzy will be automatically activated!")
+    gg.alert("Make sure your game is open, don't hide it on the background!")
+    randomized()
+    os.exit()
+  else
+    local count = gg.getResultsCount()
+    local results = gg.getResults(count)
+    values = {}
+    for i = 18, count, 18 do
+      local resultAddress = results[i].address
+      for j = 1, 7 do
+        values[#values + 1] = {address = resultAddress + j, flags = gg.TYPE_BYTE}
+      end
+      values = gg.getValues(values)
+    end
+    
+    local str = ''
+    for i, v in ipairs(values) do
+      str = str .. string.char(v.value & 0xFF)
+    end
+    gg.clearResults()
+    if values[1].value <= 0x35 and values[2].value == 0x2E and values[3].value <= 0x35 then -- unity versions 5.5 or below
+      gg.alert("Unity version "..str..",This version is to old. Use Speedhack through Cb or Fuzzy")
+      anonGroupSearchOffset = 0x3C
+      cbOffsetSmall = 0x24
+      anonSpeedOffsetSmall = 0xBC
+    end
+    gg.clearResults()
+  end
+end
+
+function finalSpeedResult()
+  resultsCount = gg.getResultsCount()
+  local values = gg.getResults(resultsCount)
+  local results = {}
+  local speed = {}
+  for b = 1, #values do
+    local loop = 0x0
+    for i = 1, 70 do
+      results[#results + 1] = {address = values[b].address + loop, flags = gg.TYPE_FLOAT}
+      loop = loop + 4
+    end
+  end
+  results = gg.getValues(results)
+  for i, v in ipairs(results) do
+    if v.value == 1 then
+      speed[#speed +1] = {address = v.address, flags = v.flags, name = "Speed"}
+      break
+    end
+  end
+  
+  if #speed ~= 0 then
+    gg.toast("Time.timeScale found")
+    gg.addListItems(speed)
+    gg.clearResults()
+    os.exit()
+  end
+end
+
+function startxa()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_CODE_APP)
+  gg.searchNumber("h 6A 6F 79 73 74 69 63 6B 20 31 36 20 62 75 74 74 6F 6E 20 31 39")
+  if gg.getResultsCount() == 0 then
+    gg.alert("Search not found, try Speedhack Cb or Fuzzy")
+    start()
+  else
+    local a = gg.getResults(1)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_C_DATA | gg.REGION_OTHER)
+    gg.searchNumber(a[1].address, dataType)
+    resultsCount = gg.getResultsCount()
+    a = gg.getResults(1)
+    gg.clearResults()
+    gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC | gg.REGION_OTHER)
+    gg.searchNumber(a[1].address + cdOffsetSmall, dataType)
+    if gg.getResultsCount() ~= 1 then 
+      gg.clearResults()
+      gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC | gg.REGION_OTHER)
+      gg.searchNumber(a[1].address - cdOffsetBig, dataType)
+    end
+    finalSpeedResult()
+  end
+end
+
+function filterCb()
+  local b = {}
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC | gg.REGION_OTHER)
+  gg.searchNumber("h 00 00 80 3F CD CC 4C 3E 00 00 00 41 00 00 C8 42 00 00 B4 43 0A D7 23 3C CD CC 4C 3E 00 00 40 3F 00 00 00")
+  if gg.getResultsCount() == 0 then
+    gg.searchNumber("-9.81000041962", gg.TYPE_FLOAT)
+    cb_nothingFound()
+    resultsCount = gg.getResultsCount()
+    local t = gg.getResults(resultsCount)
+    for i, v in ipairs(t) do
+      v.address = v.address + 0xC
+    end
+    gg.loadResults(t)
+    gg.refineNumber("1", gg.TYPE_FLOAT)
+    cb_nothingFound()
+    resultsCount = gg.getResultsCount()
+    b = gg.getResults(resultsCount)
+  elseif gg.getResultsCount() ~= 0 then
+    gg.refineNumber("h 00 00 80 3F", gg.TYPE_FLOAT)
+    cb_nothingFound()
+    resultsCount = gg.getResultsCount()
+    local a = gg.getResults(resultsCount)
+    for i, v in ipairs(a) do
+      v.flags = gg.TYPE_FLOAT
+    end
+    b = gg.getValues(a)
+  end
+  return b
+end
+function startcb()
+  local fakeSpeedPointers = {}
+  local b = filterCb()
+  for i, v in ipairs(b) do
+    if v.value == 1 then
+      fakeSpeedPointers[#fakeSpeedPointers + 1] = {address = v.address - anonGroupSearchOffset, flags = gg.TYPE_FLOAT}
+      fakeSpeedPointers[#fakeSpeedPointers + 1] = {address = v.address - 0x48, flags = gg.TYPE_FLOAT}
+      fakeSpeedPointers[#fakeSpeedPointers + 1] = {address = v.address - 0x44, flags = gg.TYPE_FLOAT}
+    end
+  end
+  gg.setRanges(gg.REGION_C_BSS | gg.REGION_OTHER | gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
+  gg.loadResults(fakeSpeedPointers)
+  gg.searchPointer(0)
+  resultsCount = gg.getResultsCount()
+  local offsetStart = gg.getResults(resultsCount)
+  for i, v in ipairs(offsetStart) do
+    v.address = v.address - cbOffsetSmall
+  end
+  local valu = gg.getValues(offsetStart)
+  for i, v in ipairs(valu) do
+    if ISA == false then
+      v.address = v.value&0xFFFFFFFF
+    else
+      v.address = v.value
+    end
+  end
+  gg.loadResults(valu)
+  finalSpeedResult()
+end
+
+
+function randomized()
+  gg.clearResults()
+  gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC | gg.REGION_OTHER)
+  gg.searchFuzzy('0', gg.TYPE_FLOAT, gg.SIGN_FUZZY_GREATER)
+  for i = 1 , 50 do
+    gg.searchFuzzy('0', gg.TYPE_FLOAT, gg.SIGN_FUZZY_GREATER)
+    gg.refineNumber('0.01~6', gg.TYPE_FLOAT)
+    gg.sleep(50)                                                   
+  end
+  resultsCount = gg.getResultsCount()
+  secondResults = gg.getResults(resultsCount)
+  local addTables = {}
+  local speed = {}
+  for i = 1, #secondResults do
+    local loops = 0x0
+    for b = 1, 200 do
+      addTables[#addTables + 1] = {address = secondResults[i].address + loops, flags = gg.TYPE_FLOAT}
+      addTables[#addTables + 1] = {address = secondResults[i].address - loops, flags = gg.TYPE_FLOAT}
+      loops = loops + 0x4
+    end
+  end
+  addTables = gg.getValues(addTables)
+  for i, v in ipairs (addTables) do
+    if v.value == 1 then
+      speed[#speed +1] = {address = v.address, flags = v.flags, name = "Speed"}
+    end
+  end
+  if #speed ~= 0 then
+    gg.toast("Possible speed values found(not guaranteed)")
+    gg.addListItems(speed)
+    gg.clearResults()
+  else
+    gg.toast("Nothing found with Fuzzy, shuttind down script")
+  end
+  os.exit()
+end
+
+local functLoop = true
+function start()
+  if functLoop == true then
+    instructions()
+    unityVersion()
+    functLoop = false
+  end
+  menu = gg.multiChoice({"Fuzzy","Speedhack through Xa","Speedhack through Cb"},nil,"for fuzzy game must be open, don't hide it on the background")
+  if menu == nil then
+    noselect()
+  else
+    if menu[1] then
+      gg.alert("Make sure your game is open, don't hide it on the background!")
+      randomized()
+    end
+    if menu[2] then
+      startxa()
+    end
+    if menu[3] then
+      startcb()
+    end
+  end
+end
+
+
+while (true) do
+  if gg.isVisible() then
+    gg.setVisible(false)
+    start()
+  end
+  gg.sleep(100) 
+end
+end
+ if menu==5 then
+ gg.alert(" SNAKE RUSH LAST SCORE 1100 ")
+
+gg.setVisible(true)
+function HOME()
+menu = gg.multiChoice({
+"  SCORE GAIN ",
+"  SCORE DOWN ",
+"exit",
+
+},nil,"Made By :- CX_SANJU")
+
+if menu == true then
+else
+if menu[1] == true then
+HACK1()
+end
+if menu[2] == true then
+HACK2()
+end
+if menu[3] == true then
+gg.setVisible(true)
+os.exit()
+end
+end
+HOMEDM =-1
+end
+
+
+
+
+function HACK1()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(4787326403894837249, gg.TYPE_QWORD)
+HackersHouse = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(HackersHouse) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = HackersHouse[index].address + 4
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = HackersHouse[index].address + 8
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4656722015815729152) and (Offsets['SecondOffset'][index].value == 1084227584) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + 124
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(gg.getResultsCount(9999))
+gg.editAll("60", gg.TYPE_DWORD)
+gg.clearResults()
+end
+
+function HACK2()
+gg.clearResults()
+gg.setRanges(32)
+gg.searchNumber(4787326403894837249, gg.TYPE_QWORD)
+HackersHouse = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(HackersHouse) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = HackersHouse[index].address + 4
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = HackersHouse[index].address + 8
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 4656722015815729152) and (Offsets['SecondOffset'][index].value == 1084227584) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + 124
+	Offsets['FinalResults'][index].flags = 4
+end
+gg.loadResults(Offsets['FinalResults'])
+
+gg.getResults(gg.getResultsCount(9999))
+gg.editAll("-2", gg.TYPE_DWORD)
+gg.alert(" SCORE WILL BE DOWN  ")
+end
+
+
+
+
+
+
+
+
+function EXIT()
+gg.sleep(1000)
+gg.sleep(1000)
+gg.setVisible(true)
+gg.clearList()
+gg.clearResults()
+os.exit()
+end
+
+while true do
+if gg.isVisible(true) then
+HOMEDM = 1 
+gg.setVisible(false)
+end
+if HOMEDM == 1 then
+HOME()
+end
+end
+end
+if menu==6 then
+gg.alert(" 2048 BALLS LAST SCORE 2950 ")
+
+
+
+userMode = 2 -- 1 = Developer mode, 2 = user mode
+
+
+
+
+
+
+function mainMenu()
+firstMenu = gg.multiChoice({"🕛TIMER OFF🕛", "🤑50 SCORE🤑","🌀1 SCORE🌀","👽NEGETIVE 1👽","❌𝗘𝗫𝗜𝗧❌"},nil,"MAKE BY CX_SANJU")
+if firstMenu == nil then
+goto nill
+end
+if firstMenu[1] then
+cheat_1()
+end
+if firstMenu[2] then
+cheat_2()
+end
+if firstMenu[3] then
+cheat_3()
+end
+if firstMenu[4] then
+cheat_5()
+end
+if firstMenu[5] then
+os.exit()
+end
+::nill::
+end
+
+
+
+
+
+
+
+
+function cheat_1()
+gg.setVisible(false)
+gg.clearResults()
+gg.clearList()
+gg.setRanges(32)
+gg.searchNumber(8521127180103581696, gg.TYPE_QWORD)
+HackersHouse = gg.getResults(250000)
+Offsets = {}
+Offsets['FirstOffset'] = {}
+Offsets['SecondOffset'] = {}
+Offsets['FinalResults'] = {}
+OffsetsIndex = 1
+for index, value in ipairs(HackersHouse) do
+	Offsets['FirstOffset'][OffsetsIndex] = {}
+	Offsets['FirstOffset'][OffsetsIndex].address = HackersHouse[index].address + 4
+	Offsets['FirstOffset'][OffsetsIndex].flags = gg.TYPE_QWORD
+	Offsets['SecondOffset'][OffsetsIndex] = {}
+	Offsets['SecondOffset'][OffsetsIndex].address = HackersHouse[index].address + 8
+	Offsets['SecondOffset'][OffsetsIndex].flags = gg.TYPE_QWORD	OffsetsIndex = OffsetsIndex + 1
+end
+Offsets['FirstOffset'] = gg.getValues(Offsets['FirstOffset'])
+Offsets['SecondOffset'] = gg.getValues(Offsets['SecondOffset'])
+OffsetsIndex = 1
+for index, value in ipairs(Offsets['FirstOffset']) do
+	if (Offsets['FirstOffset'][index].value == 3900118404568260614) and (Offsets['SecondOffset'][index].value == 908067078) then
+		Offsets['FinalResults'][OffsetsIndex] = {}
+		Offsets['FinalResults'][OffsetsIndex] =  Offsets['FirstOffset'][index]
+		OffsetsIndex = OffsetsIndex + 1
+	end
+end
+for index, value in ipairs(Offsets['FinalResults']) do
+	Offsets['FinalResults'][index].address = Offsets['FinalResults'][index].address + 76
+	Offsets['FinalResults'][index].flags = 16
+end
+gg.loadResults(Offsets['FinalResults'])
+gg.getResults(1000, nil, nil, nil, nil, nil, nil, nil, nil)
+revert = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+local t = gg.getResults(100000, nil, nil, nil, nil, nil, nil, nil, nil)
+for i, v in ipairs(t) do
+ if v.flags == gg.TYPE_FLOAT then
+  v.value = "190"
+  v.freeze = true
+ end
+end
+gg.addListItems(t)
+t = nil
+gg.clearResults()
+gg.toast("DONE BRO NEXT MENU ON KARO")
+end
+
+
+
+function cheat_2()
+gg.clearResults()
+valueFromClass("Ball", "0x5C", false, true, gg.TYPE_DWORD)
+gg.getResults(9999)
+gg.refineNumber("2~512", gg.TYPE_DWORD)
+gg.getResults(gg.getResultsCount(99999))
+gg.editAll(50, gg.TYPE_DWORD)
+gg.toast("HACK SUCCESSFUL")
+end
+
+
+
+function cheat_3()
+
+gg.editAll("2", gg.TYPE_DWORD)
+gg.toast("ONE SCORE HACK SUCCESSFUL ")
+end
+
+
+function cheat_5()
+gg.editAll("0", gg.TYPE_DWORD)
+gg.toast("GOOD NIGHT AB SO JAO BYE TATA ")
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function valueFromClass(class, offset, tryHard, bit32, valueType)
+Get_user_input = {}
+Get_user_input[1] = class
+Get_user_input[2] = offset
+Get_user_input[3] = tryHard
+Get_user_input[4] = bit32
+Get_user_type = valueType
+start()
+end
+
+
+function loopCheck()
+if userMode == 1 then
+UI()
+elseif error == 3 then
+stopClose()
+end
+end
+
+
+
+
+
+--[[ ℹ️ These function help in error log ]]--
+function found_(message)
+if error == 1 then
+found2(message)
+elseif error == 2 then
+found3(message)
+elseif error == 3 then
+found4(message)
+else
+found(message)
+end
+end
+
+
+
+
+
+function found(message)
+if count == 0 then
+
+gg.clearList()
+first_error = message
+error = 1
+second_start()
+end
+end
+
+
+
+
+
+function found2(message)
+if count == 0 then
+
+gg.clearList()
+second_error = message
+error = 2
+third_start()
+end
+end
+
+
+
+
+
+function found3(message)
+if count == 0 then
+
+gg.clearList()
+third_error = message
+error = 3
+fourth_start()
+end
+end
+
+
+
+
+
+function found4(message)
+if count == 0 then
+
+gg.clearList()
+gg.alert("❌Value NOT FOUND❌\nError Log:\nTry 1: "..first_error.."\nTry 2: "..second_error.."\nTry 3: "..third_error.."\nTry 4: ".. message.."\n\nℹ️Try Thisℹ️\n\n🟢1: Make Sure You are Using Correct Version Of game and the dump. 64 bit game and 64 bit dump or 32 bit game 32 bit dump + check try for 32 bit option in script or Version of game and same version of dump.\n\n🟡2: Is the value allocated? if you are searching for player health maybe that value only loads after you load match and took some damage. So try again while playing\n\n🔴3: Is the class name correct? for example if the class is playerscript then don't forget to make P and S capital. So type PlayerScript not playerscript\n\n⚫4: Is the offset right? you have to type 0x before the offset for example the offset is C1 then you have to Give 0xC1 to this script\n\n🟤5: Tried Everything but still didn't work? then contact the devloper of this script https://t.me/Hackers_House_YT")
+gg.setVisible(false)
+loopCheck()
+end
+end
+
+
+
+
+--[[ 🟢Value Finders From Class and offset 🟢]]--
+function user_input_taker()
+::stort::
+
+if userMode == 1 then
+if Get_user_input == nil then
+default1 = "PlayerController"
+default2 = "0x148"
+default3 = false
+default4 = false
+else
+default1 =Get_user_input[1]
+default2 = Get_user_input[2]
+default3 = Get_user_input[3]
+default4 = Get_user_input[4]
+end
+Get_user_input = gg.prompt(
+{"🔰Script By🔰: https://t.me/Hackers_House_YT\n\nClass Name: ", "Offset: ","Try Harder --(decreases accuracy)","Try For 32 bit"},
+{default1,default2,default3,default4},
+{"text","text","checkbox","checkbox"})
+if Get_user_input ~= nil then
+if (Get_user_input[1] == "") or (Get_user_input[2] == "") then
+gg.alert("ℹ️ Don't Leave Input Blankℹ️")
+goto stort
+end
+else
+gg.alert("ℹ️ Error : Try again ℹ️")
+goto stort
+end
+Get_user_type = gg.choice({"1. Byte / Boolean","2. Dword / 32 bit Int","3. Qword / 64 bit Int","4. Float","5. Double"},nil,"🔰Script By🔰: https://t.me/Hackers_House_YT\n\nℹ️ Choose The Output Type ℹ️")
+if Get_user_type == 1 then
+Get_user_type = gg.TYPE_BYTE
+elseif Get_user_type == 2 then
+Get_user_type = gg.TYPE_DWORD
+elseif Get_user_type == 3 then
+Get_user_type = gg.TYPE_QWORD
+elseif Get_user_type == 4 then
+Get_user_type = gg.TYPE_FLOAT
+elseif Get_user_type == 5 then
+Get_user_type = gg.TYPE_DOUBLE
+end
+if Get_user_type ~= gg.TYPE_BYTE then
+if (Get_user_input[2] % 4) ~= 0 then
+gg.alert("ℹ️Hex Offset Must Be An Multiple OF 4ℹ️")
+goto stort
+end
+end
+end
+error = 0 
+end
+
+
+
+
+
+
+function O_initial_search()
+gg.setVisible(false)
+gg.toast("🟢Hackers House: First Try")
+user_input = ":"..Get_user_input[1] 
+if Get_user_input[3] then
+offst = 25
+else
+offst = 0
+end
+end
+
+
+
+
+
+
+function O_dinitial_search()
+if error > 1 then
+gg.setRanges(gg.REGION_C_ALLOC)
+else
+gg.setRanges(gg.REGION_OTHER)
+end
+gg.searchNumber(user_input, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+if count == 0 then
+found_("O_dinitial_search")
+return 0
+end
+Refiner = gg.getResults(1)
+gg.refineNumber(Refiner[1].value, gg.TYPE_BYTE)
+count = gg.getResultsCount()
+if count == 0 then
+found_("O_dinitial_search")
+return 0
+end
+val = gg.getResults(count)
+gg.addListItems(val)
+end
+
+
+
+
+
+
+function CA_pointer_search()
+
+gg.setRanges(gg.REGION_C_ALLOC | gg.REGION_OTHER)
+gg.loadResults(gg.getListItems())
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("CA_pointer_search")
+return 0
+end
+vel = gg.getResults(count)
+gg.clearList()
+gg.addListItems(vel)
+end
+
+
+
+
+
+
+function CA_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+function CA2_apply_offset()
+if Get_user_input[4] then
+tanker = 0xfffffffffffffff8
+else
+tanker = 0xfffffffffffffff0
+end
+local copy = false
+local l = gg.getListItems()
+if not copy then gg.removeListItems(l) end
+for i, v in ipairs(l) do
+	v.address = v.address + tanker
+	if copy then v.name = v.name..' #2' end
+end
+gg.addListItems(l)
+end
+
+
+
+
+
+
+function Q_apply_fix()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+count = gg.getResultsCount()
+if count == 0 then
+found_("Q_apply_fix")
+return 0
+end
+yy = gg.getResults(1000)
+
+i = 1
+c = 1
+s = {}
+while (i-1) < count do
+yy[i].address = yy[i].address + 0xb400000000000000
+gg.searchNumber(yy[i].address, gg.TYPE_QWORD)
+cnt = gg.getResultsCount()
+if 0 < cnt then
+bytr = gg.getResults(cnt)
+n = 1
+while (n-1) < cnt do
+s[c] = {}
+s[c].address = bytr[n].address
+s[c].flags = 32
+n = n + 1
+c = c + 1
+end
+end
+
+i = i + 1
+end
+gg.addListItems(s)
+end
+
+
+
+
+
+
+function A_base_value()
+gg.setRanges(gg.REGION_ANONYMOUS)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("A_base_value")
+return 0
+end
+tel = gg.getResults(count)
+gg.addListItems(tel)
+end
+
+
+
+
+
+
+function A_base_accuracy()
+gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
+gg.loadResults(gg.getListItems())
+gg.clearList()
+gg.searchPointer(offst)
+count = gg.getResultsCount()
+if count == 0 then
+found_("A_base_accuracy")
+return 0
+end
+kol = gg.getResults(count)
+i = 1
+h = {}
+while (i-1) < count do
+h[i] = {}
+h[i].address = kol[i].value
+h[i].flags = 32
+i = i + 1
+end
+gg.addListItems(h)
+end
+
+
+
+
+
+
+function A_user_given_offset()
+local old_save_list = gg.getListItems()
+for i, v in ipairs(old_save_list) do
+v.address = v.address + Get_user_input[2]
+v.flags = Get_user_type
+end
+
+gg.clearList()
+gg.loadResults(old_save_list)
+count = gg.getResultsCount()
+if count == 0 then
+found_("Q_apply_fix++")
+return 0
+end
+gg.setVisible(false)
+end
+
+
+
+
+--[[ 🔴 Different Functions For 1,2,3,4th try 🔴]]--
+function start()
+user_input_taker()
+O_initial_search()
+O_dinitial_search()
+if error > 0 then
+return 0
+end
+CA_pointer_search()
+if error > 0 then
+return 0
+end
+CA_apply_offset()
+if error > 0 then
+return 0
+end
+A_base_value()
+if error > 0 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 0 then
+return 0
+end
+A_user_given_offset()
+if error > 0 then
+return 0
+end
+loopCheck()
+if error > 0 then
+return 0
+end
+end
+
+
+
+
+
+
+function second_start()
+gg.toast("🟡Hackers House: Second Try")
+O_dinitial_search()
+if error > 1 then
+return 0
+end
+CA_pointer_search()
+if error > 1 then
+return 0
+end
+CA_apply_offset()
+if error > 1 then
+return 0
+end
+Q_apply_fix()
+if error > 1 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 1 then
+return 0
+end
+A_user_given_offset()
+if error > 1 then
+return 0
+end
+loopCheck()
+if error > 1 then
+return 0
+end
+end
+
+
+
+
+
+
+function third_start()
+gg.toast("🔴Hackers House: Third Try")
+O_dinitial_search()
+if error > 2 then
+return 0
+end
+CA_pointer_search()
+if error > 2 then
+return 0
+end
+if offst == 0 then
+CA2_apply_offset()
+end
+if error > 2 then
+return 0
+end
+A_base_value()
+if error > 2 then
+return 0
+end
+if offst == 0 then
+A_base_accuracy()
+end
+if error > 2 then
+return 0
+end
+A_user_given_offset()
+if error > 2 then
+return 0
+end
+loopCheck()
+if error > 2 then
+return 0
+end
+end
+
+
+
+
+
+
+function fourth_start()
+gg.toast("☢️Hackers House: Fourth Try")
+O_dinitial_search()
+CA_pointer_search()
+CA2_apply_offset()
+Q_apply_fix()
+if offst == 0 then
+A_base_accuracy()
+end
+A_user_given_offset()
+loopCheck()
+end
+
+
+
+
+
+
+--[[ ℹ️ It will create an UI button and loop until user clicks the UI. If clicked calls start() ]]--
+function UI()
+gg.showUiButton()
+while true do
+if gg.isClickedUiButton() then
+start()
+end
+end
+end
+
+
+
+
+
+
+function stopClose()
+while true do
+mainMenu()
+gg.setVisible(false)
+while gg.isVisible() == false do
+end
+end
+end
+
+
+
+if userMode == 2 then
+stopClose()
+else
+UI()
+end
+end
+if menu==7 then
+gg.alert(" DEAR USER MAKE SURE YOUR WINZO VERSION IS CORRECT ! USE 32 BIT ENGINE  ")
+end

@@ -1,10 +1,3 @@
-if gg.PACKAGE == "org.pandcorps.furguardians" then
-	--do something
-else
-	gg.alert(' REGISTER YOUR SCRIPT FROM CX_SANJU')
-	os.exit()
-end
-
 menu = gg.choice({'⭕𝐌𝐄𝐓𝐑𝐎 𝐒𝐔𝐑𝐅𝐄𝐑 ⭕ ', ' ⭕𝐋𝐄𝐐𝐔𝐈𝐃 𝐒𝐇𝐎𝐓 ⭕ ', ' ⭕𝐖𝐎𝐑𝐃 𝐒𝐄𝐀𝐑𝐂𝐇🔍 ⭕ ', ' ⭕ 𝐂𝐀𝐍𝐃𝐘 🍬⭕ ', ' ⭕ 𝐒𝐍𝐀𝐊𝐄 𝐑𝐔𝐒𝐇 ⭕ ', ' ⭕ 204𝟖 𝐁𝐀𝐋𝐋𝐒 ⭕ ' , '     𝐔𝐒𝐄𝐑 𝐆𝐔𝐈𝐃𝐄 ❓' } ,nil, ' ✳️𝐌𝐀𝐊𝐄 𝐁𝐘 𝐂𝐗 𝐒𝐀𝐍𝐉𝐔 ✴️  ')
 if menu==1 then
 gg.alert(" METRO LAST SCORE  7100 ")

@@ -1,5 +1,4 @@
-if gg.PACKAGE == "com.kkeifhpnylmwafiy" then
-	gg.alert('DEVICE ID MATCH ')
+if gg.PACKAGE == "org.pandcorps.furguardians" then
 	--do something
 else
 	gg.alert(' REGISTER YOUR SCRIPT FROM CX_SANJU')
